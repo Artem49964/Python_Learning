@@ -23,3 +23,30 @@ print("1.Цикл for")
 #         print("Error")
 
 print("2.Цикл while")
+# i = 0
+# while i != 10: пока условие True - программа будет выполняться
+#     i += 1
+#     print(i)
+
+print("3.Операторы циклов. break, continue")
+# for i in range(1, 11):
+#     if i>5:
+#         break # Оператор break останавливает выполнение программы как только условие True
+#     print(i)
+
+# for i in range(1, 11):
+#     if i % 2 == 0: # Если при делении на 2 будет остача 0: то
+#         continue # Оператор continue пропускает одну итерацию как только условие True и программа продолжает выполняться
+#     print(i)
+
+print('4.Поиск символа в строке')
+# found = None
+# word = 'hello'
+#
+# for i in word:
+#     if i == 'l':
+#         found = True
+#         break
+#     else:
+#         found = False
+# print(found)

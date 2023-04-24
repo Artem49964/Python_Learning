@@ -42,6 +42,11 @@ print('4.Несколько условий')
 # elif not isHappy or user_data!=5:
 #     print('isHappy!=True или Вы не ввели число 5!')
 
+print('5.Тернарный оператор')
+# s = str(input("Введите значение Five: "))
+# num = 5 if s=="Five" else 0 # Тут мы говорим что num будет равно 5 только в том случае если s равна Five. Иначе num будет равна 0
+# print("num =", num)
+
 
 
 

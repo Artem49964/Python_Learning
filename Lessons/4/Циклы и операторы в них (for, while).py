@@ -13,7 +13,6 @@ word = str(input('Введите что нибудь: '))
 # for i in word:
 #     print(i) # Выведутся поочерёрдно все символы переменной word
 
-
 count = 0
 for i in word:
     if i!=word:
@@ -23,11 +22,15 @@ for i in word:
         print("Error")
 
 
+
+
 print("2.Цикл while")
 i = 0
 while i != 10: # пока условие True - программа будет выполняться
     i += 1
     print(i)
+
+
 
 
 print("3.Операторы циклов. break, continue")
@@ -40,6 +43,8 @@ for i in range(1, 11):
     if i % 2 == 0: # Если при делении на 2 будет остача 0: то
         continue # Оператор continue пропускает одну итерацию как только условие True и программа продолжает выполняться
     print(i)
+
+
 
 
 print('4.Поиск символа в строке')

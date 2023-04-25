@@ -15,7 +15,7 @@ word = str(input('Введите что нибудь: '))
 
 count = 0
 for i in word:
-    if i!=word:
+    if 'w' in word:
         count += 1
         print(count)
     else:

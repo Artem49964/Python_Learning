@@ -49,12 +49,12 @@ class Person:
 
 person1 = Person()
 person1.set_data('Artem', 22, True, 'Ukraine')
-print(person1.name, person1.age, person1.status, person1.region)
+print(person1.name, person1.age, person1.status, person1.region) # Artem 22 True Ukraine
 
 
 person2 = Person()
 person2.set_data('Ivan', 30, False, 'USA')
-print(person2.name, person2.age, person2.status, person2.region)
+print(person2.name, person2.age, person2.status, person2.region) # Ivan 30 False USA
 
 
 

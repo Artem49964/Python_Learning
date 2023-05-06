@@ -16,7 +16,7 @@ class Building:
         self.city = city
 
     def get_info(self):
-        print('Year of building is', self.year, 'City of building is', self.city, 'Pupils in school is', self.pu )
+        print('Year of building is', self.year, 'City of building is', self.city, 'Pupils in school is')
 
 
 
@@ -33,7 +33,9 @@ class School(Building): # передаваемый аргумент Building я�
         self.pupils = pupils
 
         # Функция super
-        super(School, self).__init__(year, city, pupils)
+        super(School, self).__init__(year, city)
+
+
 
 #         Эта функция вызывает класс родитель со всеми его функциями
 #         Далее мы говорим от какого класса наследника мы передаем параметры в класс родитель
